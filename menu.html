@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MUKKIT_LIST</title>
-    <style>
-        ul{width:550px;height:30px;background:black;list-style:none;padding-top:8px;padding-bottom:8px}
-        ul li{float:left;margin-right:20px}
-        ul li a{font-size:20px;color:white;font-weight:bold;text-decoration:none}
-    </style>
+    <title>menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: "Noto+Sans+KR", sans-serif;
+            font-size: 20px;
+        }
+        ul { list-style-type: none; margin: 0; padding: 0; background-color: #CCEEFF;}
+        ul:after{content: ''; display: block; clear:both;}
+        li { float: left; }
+        li a { display: block; color: black; text-align: center; padding: 14px 16px; text-decoration: none;}
+        li a:hover:not(.active) {background-color: #b3dff5;}
+        .active {background-color: #CCEEFF;}
+    </style>   
 </head>
 <body style="overflow:hidden">
     <ul>
+        <li><a class="active" href="#">Menu</li>
         <li><a href="#">검색</a></li>
         <li><a href="#">등록</a></li>
         <li><a href="#">수정</a></li>
