@@ -1,4 +1,4 @@
-﻿CREATE TABLE MrDataConverter (
+﻿CREATE TABLE Mukkit_list (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   ID INT,
   store_name VARCHAR(255),
@@ -6,7 +6,7 @@
   description VARCHAR(255),
   score FLOAT
 );
-INSERT INTO MrDataConverter 
+INSERT INTO Mukkit_list 
   (ID,store_name,location,description,score) 
 VALUES 
   (1,'숙성도','제주 제주시 원노형로 41','돼지고기',5),
