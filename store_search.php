@@ -1,11 +1,14 @@
-<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <?
 $jb_conn = mysqli_connect( 'localhost', 'mukkit', 'list4241!', 'mukkit' );
-$query = "select * from mukkit_list3 where".$searchtype."list '%".$searchterm."%'";
-$jb_sql = "SELECT * FROM mukkit_list3;";
-$result = mysqli_query( $jb_conn, $query );
+$type = isset($_POST["searchtype"]) ? $_POST["searchtype"] : false;
+$term = isset($_POST["searchterm"]) ? $_POST["searchterm"] : false;
+$jb_sql = "SELECT * FROM mukkit_list3 where ".$type." like '% ".$term." %' ";
+$result = mysqli_query( $jb_conn,$jb_sql );
 $records = mysqli_num_rows($result); //개수를 알려줌
 $fields=mysqli_num_fields($result); //필드개수를 알려줌
+if (!$records || mysqli_num_rows($result) == 0) $records = 0;
 echo "<p> 일치하는 맛집을 ".$records."개 찾았습니다.</p>";
 $number=1;
 ?>
