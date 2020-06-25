@@ -3,6 +3,8 @@
 
 Mukkit_List는 제주도에 있는 맛집들을 저장하여 지도를 통해 보여주는 웹입니다.
 
+저희의 도메인 주소는 http://mukkit.dothome.co.kr/ 입니다.
+
 지도api는 카카오맵을 사용하였습니다.
 
 DB에 있는 맛집 뿐만 아니라 등록 기능을 통해 맛집 리스트를 늘릴 수 있습니다.
@@ -52,6 +54,6 @@ DB에 있는 맛집 뿐만 아니라 등록 기능을 통해 맛집 리스트를
 또한, phpadmin을 이용하여 DB를 관리하였습니다.
 http://mukkit.dothome.co.kr/myadmin/
 위 주소가 저희가 사용한 DB 주소입니다.
-api를 불러오기 위한 도메인 생성을 위하여 http://mukkit.dothome.co.kr 사이트를 이용하였습니다. 
+api를 불러오기 위한 도메인 생성을 위하여 http://www.dothome.co.kr 사이트를 이용하였습니다. 
 
 감사합니다.
