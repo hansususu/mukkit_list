@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <title>맛집검색</title>
+</head>
+<body>
+<p><h3>맛집 검색하기</h3></p>
+<form action ='store_search.php' method='post'>
+    <select name = 'searchtype'>
+        <option value='store_name'>맛집명</option>
+        <option value='location'>위치</option>
+        <option value='description'>메뉴</option>
+        <option value='score'>평점</option>
+    </select>
+    <br/>
+    <input type='text' name='searchterm' size='40'/>
+    <input type='submit' value='검색'/>
+</form>
+</body>
+</html>
