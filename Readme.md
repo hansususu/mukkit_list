@@ -52,6 +52,6 @@ DB에 있는 맛집 뿐만 아니라 등록 기능을 통해 맛집 리스트를
 또한, phpadmin을 이용하여 DB를 관리하였습니다.
 http://mukkit.dothome.co.kr/myadmin/
 위 주소가 저희가 사용한 DB 주소입니다.
-api를 불러오기 위한 도메인 생성을 위하여 www.freenom.com 사이트를 이용하였습니다. 
+api를 불러오기 위한 도메인 생성을 위하여 http://mukkit.dothome.co.kr 사이트를 이용하였습니다. 
 
 감사합니다.
