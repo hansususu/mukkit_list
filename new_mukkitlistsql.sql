@@ -1,5 +1,5 @@
-CREATE TABLE mukkit_list (
-  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE new_mukkit (
+  -- id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   ID INT,
   store_name VARCHAR(255),
   location VARCHAR(255),
@@ -8,7 +8,7 @@ CREATE TABLE mukkit_list (
   longitude FLOAT,
   latitude FLOAT
 );
-INSERT INTO mukkit_list
+INSERT INTO new_mukkit
   (ID,store_name,location,description,score,longitude,latitude) 
 VALUES 
   (1,'숙성도','제주 제주시 원노형로 41','돼지고기',5,126.485039599407,33.4850498109332),
